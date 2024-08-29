@@ -1,0 +1,30 @@
+body 
+{
+    background-color: #ffeeef;
+    font-family: 'Palatino', serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header 
+{
+    text-align: center;
+    padding: 1em;
+    background-color: #ffd9e1;
+}
+
+main 
+{
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #ffd9e1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
