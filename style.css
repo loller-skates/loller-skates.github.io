@@ -1,6 +1,6 @@
 body 
 {
-    background-color: #ffeeef;
+    background-color: #f0cec0;
     font-family: 'Palatino', serif;
     color: #333;
     margin: 0;
@@ -11,9 +11,18 @@ header
 {
     text-align: center;
     padding: 1em;
-    background-color: #ffd9e1;
+    background-color: #d1a797;
+    color: rgb(71, 49, 39)
 }
 
+style
+{
+    padding: 2em;
+    font-size: 10px;
+    padding-bottom: 100px;
+    text-align: center;
+
+}
 main 
 {
     padding: 2em;
@@ -25,8 +34,6 @@ main
 footer {
     text-align: center;
     padding: 1em;
-    background-color: #ffd9e1;
-    position: fixed;
+    background-color: #d1a797;
     bottom: 0;
-    width: 10%;
 }
