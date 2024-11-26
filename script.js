@@ -1,5 +1,18 @@
-function methodOne() {
-    alert('LMAOOOOOOO LOSER jk i love you');
+let isVisible = false;
+let isVisible2 = false;
+let isVisible4 = false;
+function methodOne()
+{
+    alert('LMAOOOOOOO LOSER jk i love you')
+    isVisible = !isVisible;
+
+            // Update the div visibility
+            const messageDiv = document.getElementById('message');
+            if (isVisible) {
+                messageDiv.classList.remove('hidden');  // Show the message
+            } else {
+                messageDiv.classList.add('hidden');  // Hide the message
+            }
 }
 
 function methodTwo() {
@@ -120,6 +133,18 @@ function methodTwo() {
         "Don't close this window. \n\n" +
         "If you leave, you will be at risk."
     );
+    alert("hehe gotcha"
+    );
+
+    isVisible2 = !isVisible2;
+
+    // Update the div visibility
+    const messageDiv2 = document.getElementById('message2');
+    if (isVisible2) {
+        messageDiv2.classList.remove('hidden2');  // Show the message
+    } else {
+        messageDiv2.classList.add('hidden2');  // Hide the message
+    }
 }
 
 function methodThree(){
@@ -134,4 +159,20 @@ function methodThree(){
         "Spotify Playlist",
         `width=${width},height=${height},top=${top},left=${left},resizable=yes,scrollbars=yes`
     );
+
+
+}
+
+function methodFour(){
+    alert('SMOOOOOOOOOOCH <3 <3 <3 <3')
+    //Your face is covered in kisses now. You'd look like this. 
+    // Update the div visibility
+    isVisible4 = !isVisible4;
+
+    const messageDiv4 = document.getElementById('message4');
+        if (isVisible4) {
+            messageDiv4.classList.remove('hidden4');  // Show the message
+        } else {
+            messageDiv4.classList.add('hidden4');  // Hide the message
+        }
 }
