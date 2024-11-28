@@ -1,6 +1,8 @@
 let isVisible = false;
 let isVisible2 = false;
 let isVisible4 = false;
+let isVisible5 = false;
+
 function methodOne()
 {
     alert('LMAOOOOOOO LOSER jk i love you')
@@ -165,7 +167,6 @@ function methodThree(){
 
 function methodFour(){
     alert('SMOOOOOOOOOOCH <3 <3 <3 <3')
-    //Your face is covered in kisses now. You'd look like this. 
     // Update the div visibility
     isVisible4 = !isVisible4;
 
@@ -174,5 +175,18 @@ function methodFour(){
             messageDiv4.classList.remove('hidden4');  // Show the message
         } else {
             messageDiv4.classList.add('hidden4');  // Hide the message
+        }
+}
+
+function methodFive(){
+    alert('gobble')
+    // Update the div visibility
+    isVisible5 = !isVisible5;
+
+    const messageDiv5 = document.getElementById('message5');
+        if (isVisible5) {
+            messageDiv5.classList.remove('hidden5');  // Show the message
+        } else {
+            messageDiv5.classList.add('hidden5');  // Hide the message
         }
 }
