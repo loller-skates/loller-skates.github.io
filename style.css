@@ -1,6 +1,6 @@
 body 
 {
-    background-color: #f0cec0;
+    background-color: #ffbcbc;
     font-family: 'Palatino', serif;
     color: #333;
     margin: 0;
@@ -11,8 +11,8 @@ header
 {
     text-align: center;
     padding: 1em;
-    background-color: #d1a797;
-    color: rgb(71, 49, 39)
+    background-color: #f89494;
+    color: rgb(170, 67, 67)
 }
 
 style
