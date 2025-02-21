@@ -18,7 +18,7 @@ function methodOne()
 }
 
 function methodTwo() {
-    alert('the button is sleeping..."(っ- ‸ - ς)ᶻ 𝗓 𐰁')
+    alert('the button is sleeping..."(っ- ‸ - ς)ᶻ 𝗓 𐰁 goodnight button')
     
 
     isVisible2 = !isVisible2;
