@@ -1,8 +1,8 @@
 body 
 {
-    background-color: #ffbcbc;
+    background-color: #dddddd;
     font-family: 'Palatino', serif;
-    color: #a41d41;
+    color: rgb(54, 54, 54);
     margin: 0;
     padding: 0;
 }
@@ -11,8 +11,8 @@ header
 {
     text-align: center;
     padding: 1em;
-    background-color: #f89494;
-    color: rgb(100, 27, 27)
+    background-color: #8b8b8b;
+    color: rgb(54, 54, 54)
 }
 
 style
@@ -34,7 +34,7 @@ main
 footer {
     text-align: center;
     padding: 1em;
-    background-color: #f89494
+    background-color: #8b8b8b
     ;
     bottom: 0;
 }
